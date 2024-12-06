@@ -40,7 +40,7 @@ Button.MouseButton1Click:Connect(function()
     Notification.Visible = false
 
     if flying then
-        -- Fly function
+        
         local humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
         if humanoid then
             bodyVelocity = Instance.new("BodyVelocity")
